@@ -1,0 +1,81 @@
+body {
+    background: #000;
+    color: #FFF;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+.main {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: #0C2D48;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.add-link {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.add-link input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    background: #0C2D48;
+    border: 1px solid #000;
+    outline: none;
+    font-size: 1.2rem;
+}
+
+.add-link button {
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background: #0C2D48;
+    color: #fff;
+    outline: none;
+}
+
+.add-link button:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+#linkList {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#linkList li {
+    padding: 20px;
+    background: #0C2D48;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#linkList li:hover {
+    cursor: pointer;
+}
+
+.text-link {
+    width: 250px;
+}
+
+.btn-action {
+    border-radius: 5px;
+    border: 1px solid #000;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background: #0C2D48;
+    color: #fff;
+}
